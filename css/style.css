@@ -26,6 +26,7 @@ header {
     height: 50px;
 }
 img {
+    width: 100%;
     display: block;
 }
 
@@ -39,7 +40,7 @@ main {
     
 }
 .window{
-    width: calc(100% / 7);
+    width: calc(100% / 7 - 10px);
     aspect-ratio: 16/9;
     position: relative;
 }

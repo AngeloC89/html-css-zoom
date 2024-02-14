@@ -28,6 +28,10 @@ html{
     justify-content: flex-end;
 }
 
+.j-c-center {
+    justify-content: center;
+}
+
 .align-c-c{
     align-content: center;
     align-items: center;
