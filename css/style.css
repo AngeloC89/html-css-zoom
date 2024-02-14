@@ -32,7 +32,11 @@ header div{
     background-color: var(--color-grey);
     border-radius: 3px;
     margin: 0px 3px;
+    cursor: pointer;
     
+}
+ h4:hover{
+   text-decoration: underline;
 }
 img {
     width: 100%;
@@ -42,7 +46,7 @@ img {
 
 /* main */
 main {
-    height: calc(100% - 110px);
+    height: calc(100% - 100px);
     overflow-y: auto ;
     width: 100%;  
     padding: 3px 20px;  
@@ -55,6 +59,8 @@ main {
     aspect-ratio: 16/9;
     position: relative;
     min-width: 150px;
+    cursor: pointer;
+
     
 }
 
@@ -73,19 +79,58 @@ h4{
 /* toolbar */
 #toolbar{
     background-color: var(--color-darkgray);
-    height: 60px;
+    height: 50px;
+    
 }
 
-
+#toolbar div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    cursor: pointer;
+   
+}
 .left div {
     padding: 5px;
     
 }
+
+
 .central div {
     padding: 5px;
-    
 }
-.right div {
+
+ h5{
+    font-weight: 300;
+    font-size: 0.7vw;
     padding: 5px;
+}
+
+h5:hover{
+    text-decoration: underline;
+}
+.right {
+    padding: 5px;
+    color:var(--color--text-red);
+    background-color: var(--color-grey);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
     
 }
+.right h5{
+    font-weight: 500;
+    padding: 0.7vw;
+    
+   
+}
+
+#text-green{
+    color: var(--color-green);
+}
+
+
+
