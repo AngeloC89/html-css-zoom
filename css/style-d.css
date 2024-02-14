@@ -24,6 +24,9 @@ html{
     flex-wrap: wrap;
 }
 
+.j-c-bet{
+    justify-content: space-between;
+}
 .j-c-end{
     justify-content: flex-end;
 }
@@ -35,4 +38,9 @@ html{
 .align-c-c{
     align-content: center;
     align-items: center;
+}
+
+.align-c-s{
+    align-items: flex-start;
+    align-content: flex-start;
 }
